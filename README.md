@@ -7,7 +7,7 @@
 <p align="center">
 This repository serves as a playground to explore Model Context Protocol (MCP) capabilities and experiment with 
 integrating AI models with external data sources and tools.
-More information about MCP can be found [here](https://github.com/modelcontextprotocol).
+More information about MCP can be found <a href="https://github.com/modelcontextprotocol">here</a>
 </p>
 
 <br/>
