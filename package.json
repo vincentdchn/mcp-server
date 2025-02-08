@@ -1,18 +1,17 @@
 {
-    "name": "typescript-boilerplate",
+    "name": "mcp-server",
     "version": "1.0.0",
-    "description": "A boilerplate for TypeScript projects",
+    "description": "A test MCP server implementation",
     "author": "Vincent Duchêne",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vincentdchn/typescript-boilerplate.git"
+        "url": "git+https://github.com/vincentdchn/mcp-server.git"
     },
     "keywords": [
-        "typescript",
-        "boilerplate",
-        "typescript-boilerplate",
-        "typescript-boilerplate"
+        "mcp",
+        "llm",
+        "protocol"
     ],
     "main": "index.js",
     "type": "module",
@@ -23,7 +22,7 @@
         "format": "prettier --write .",
         "test:ci": "vitest --run",
         "test:coverage": "vitest --coverage",
-        "build": "tsc"
+        "build": "tsup src/index.ts --format esm --dts"
     },
     "devDependencies": {
         "@eslint/js": "^9.20.0",
@@ -36,6 +35,7 @@
         "eslint-plugin-perfectionist": "^4.8.0",
         "eslint-plugin-unicorn": "^56.0.1",
         "globals": "^15.14.0",
+        "tsup": "^8.3.6",
         "tsx": "^4.19.2",
         "typescript": "^5.7.3",
         "typescript-eslint": "^8.23.0",
